@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ezam</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/blog-1.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">Ezam</a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">Ezam</a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>صفحه اصلی</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>درخواست نمایندگی</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link" data-nav-link>راهنما و خود آموز</a>
+          </li>
+
+          <li>
+            <a href="#features" class="navbar-link" data-nav-link>جشنواره</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>درباره ما</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>بلاگ</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="#" class="btn-outline">ورود</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+<!-- 
+            <p class="hero-subtitle has-before"></p> -->
+
+            <h1 class="h1 hero-title">دفاتر عظام در ایران</h1>
+
+            <p class="hero-text">
+              در حال حاضر 12 کارخانه ی زیرمجموعه ی این هلدینگ در استانهای مختلف کشور فعالند و هر کدام با تولید یک یا چند محصول خاص تلاش میکنند تا بتوانند اهداف این گروه را محقق کنند
+            </p>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">عضو شید</a>
+
+              <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="play" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">چگونه کار می کنیم</span>
+              </button>
+            </div>
+
+          </div>
+
+          <figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650;">
+            <img src="./assets/images/hero-slide-1.jpg" width="650" height="650" alt="hero banner" class="img-cover">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/feature-banner.jpg" width="802" height="654" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2-sm section-title">کیت کلاچ سوپرپاور چیست</h2>
+
+            <p class="section-text">
+              کیت کلاچ سوپرپاور یک مجموعه از قطعات است که به منظور بهبود عملکرد کلاچ در خودروهای تبدیل شده برای افزایش قدرت و گشتاور ساخته می‌شود
+            </p>
+
+            <ul class="about-list">
+
+              <li class="has-before">
+                مواد با کیفیت  </li>
+
+              <li class="has-before">
+                واسطه‌های نازک‌تر
+                  </li>
+
+              <li class="has-before">
+                کاهش لغزش
+              </li>
+
+            </ul>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">بیشتر بدانید</a>
+
+              <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">بیست سال سابقه </span>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle text-center">-آنچه ما پیشنهاد می کنیم-</p>
+
+          <h2 class="h2 section-title text-center">خدمات خلاقانه ما</h2>
+
+          <p class="section-text text-center">
+            از کاهش هزینه خودروی خود از قطعات ما حداکثر استفاده را ببرید که تجربه های شگفت انگیز  را ایجاد می کند
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-1.png" width="140" height="140" loading="lazy"
+                    alt="UI/UX Creative Design" class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">برند</h3>
+
+                  <p class="card-text">
+                    برند معتبر آ بی سی  با سال‌ها تجربه در صنعت خودرو
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">بیشتر بدانید</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-2.png" width="140" height="140" loading="lazy" alt="App Development"
+                    class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">کیفیت</h3>
+
+                  <p class="card-text">
+                    تولید شده از مواد با کیفیت بالا برای جلوگیری از آلودگی و افزایش عمر موتور
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">بیشتر بدانید</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-3.png" width="140" height="140" loading="lazy"
+                    alt="Professional Content Writer" class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">ویژگی‌ها</h3>
+
+                  <p class="card-text">
+                    طراحی خاص برای بهینه‌سازی جریان روغن و به حداقل رساندن افت فشار
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">بیشتر بدانید</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-4.png" width="140" height="140" loading="lazy" alt="Graphic Design"
+                    class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">نصب</h3>
+
+                  <p class="card-text">
+                    نصب آسان، با امکان انجام آن در خانه یا با کمک مکانیک
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">بیشتر بدانید</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">شروع کنید</a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features" id="features" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle text-center">-چرا ما را انتخاب کنید-
+          </p>
+
+          <h2 class="h2 section-title text-center">
+            دلایلی برای انتخاب ما</h2>
+
+          <p class="section-text text-center">
+            از کاهش هزینه خودروی خود  استفاده از قطعات را ببرید که تجربه های شگفت انگیز را ایجاد می کند
+
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="01">01</data>
+
+                <h3 class="h3 card-title">کیفیت بالا</h3>
+
+                <p class="card-text">
+                  ما فقط قطعات با کیفیت و استانداردهای بالا را ارائه می‌دهیم که عمر طولانی‌تری دارند و عملکرد بهتری را در خودروها تضمین می‌کنند
+
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="02">02</data>
+
+                <h3 class="h3 card-title">تنوع محصولات</h3>
+
+                <p class="card-text">
+
+                  مجموعه‌ای گسترده از قطعات برای انواع برندها و مدل‌های خودرو، که به شما این امکان را می‌دهد تا به راحتی آنچه را که نیاز دارید پیدا کنید
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="03">03</data>
+
+                <h3 class="h3 card-title">قیمت‌های رقابتی</h3>
+
+                <p class="card-text">
+                  با هدف کاهش هزینه‌های خودروی شما، ما قیمت‌های رقابتی و تخفیف‌های ویژه‌ای ارائه می‌دهیم، تا خرید اقتصادی‌تری داشته باشید
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="04">04</data>
+
+                <h3 class="h3 card-title">پشتیبانی از مشتریان</h3>
+
+                <p class="card-text">
+                  تیم پشتیبانی حرفه‌ای ما در تمامی مراحل خرید در خدمت شماست و به سوالات شما پاسخ می‌دهد تا خریدی مطمئن و رضایت‌بخش داشته باشید
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="05">05</data>
+
+                <h3 class="h3 card-title">تحویل سریع</h3>
+
+                <p class="card-text">
+                  ما به سرعت و دقت در پردازش و ارسال سفارشات شما متعهد هستیم، تا از قطعات خود به‌موقع استفاده کنید
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="06">06</data>
+
+                <h3 class="h3 card-title">تجربه شگفت‌انگیز</h3>
+
+                <p class="card-text">
+                  خرید از ما نه تنها به شما کمک می‌کند تا هزینه‌های خود را کاهش دهید، بلکه تجربه‌ای لذت‌بخش و بدون استرس را فراهم می‌کند، از انتخاب محصول تا دریافت آن
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FAQ
+      -->
+
+      <section class="section faq" aria-label="frequently asked questions">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">سوالات متداول </h2>
+
+            <a href="#" class="btn btn-primary">با هم کار کنیم</a>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                     آیا قطعات فروخته شده توسط شما دارای گارانتی هستند؟
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    بله، تمامی قطعات ما دارای گارانتی هستند. بسته به نوع قطعه، گارانتی از ۶ ماه تا ۱ سال متغیر است. با دریافت فاکتور خرید، از شرایط و ضوابط گارانتی مطلع خواهید شد
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    چگونه می‌توانم قطعه مناسب برای خودروی خود را پیدا کنم؟
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    شما می‌توانید از طریق بخش جستجوی وب‌سایت ما، مدل و برند خودروی خود را وارد کنید یا از طریق منوی دسته‌بندی، به راحتی قطعه مورد نظر را بیابید. همچنین می‌توانید با تیم پشتیبانی ما تماس بگیرید تا به شما در انتخاب قطعه کمک کنیم
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    آیا امکان بازگشت قطعه وجود دارد؟
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    بله، در صورت عدم رضایت یا نادرست بودن محصول، شما می‌توانید قطعه را ظرف ۱۴ روز از تاریخ خرید بازگردانید. لطفا شرایط و نحوه بازگشت کالا را در صفحه سیاست‌های بازگشت کالا بررسی کنید
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    آیا می‌توانم قطعات را به صورت آنلاین خریداری کنم؟
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    بله، شما می‌توانید به راحتی از طریق وب‌سایت ما خرید آنلاین انجام دهید. پس از انتخاب قطعه و افزودن آن به سبد خرید، با طی کردن مراحل پرداخت، سفارش شما ثبت خواهد شد
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    زمان تحویل کالا چقدر است؟
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    زمان تحویل معمولاً بین ۳ تا ۷ روز کاری است، بسته به موقعیت شما و نوع حمل‌ونقل انتخابی. پس از ثبت سفارش، وضعیت ارسال به شما اطلاع داده خواهد شد
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Ezam</a>
+
+          <p class="footer-text">
+            برای دریافت اخبار ما در خبرنامه ما مشترک شوید         </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="آدرس ایمیل" required class="email-field">
+
+            <button type="submit" class="form-btn">
+              <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">محصولات</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">قطعات موتوری</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">قطعات جانبی موتور</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">قطعات استاندارد و مکانیزم ها</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">قطعات تزئیناتی و بدنه</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">قطعات سیستم انتقال قدرت</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">قطعات سیستم فرمان</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">شرکت</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">در مورد شرکت</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">قطعات ما</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">نمایندگی ما</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">تعمیرگاه ما</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">اخبار</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">تماس با شرکت</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">ارتباط با ما</p>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+            <address class="contact-link address">
+              دفتر مرکزی: تهران، میدان آرژانتین، خیابان احمد قصیر، خیابان شانزدهم، پلاک 1، کدپستی : ۱۵۱۴۸۳۶۴۱۳
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+            <a href="tel:+7894631546876" class="contact-link">021-88522383</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+            <a href="mailto:info@hoolix.com" class="contact-link">info@ezamco.ir</a>
+          </li>
+
+          <li class="footer-item">
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2025 Ezam | قطعات خودرو عظام است<a href="#" class="copyright-link"> كليه حقوق اين وب سايت
+            متعلق به گروه </a>
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">سیاست حفظ حریم خصوصی</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">شرایط استفاده</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
